@@ -1,0 +1,15 @@
+[project]
+name = "emdat-python-tutorials"
+version = "0.1.0"
+description = "Python tutorials for the EM-DAT international disaster database"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fiona>=1.10",
+    "geopandas>=1.1",
+    "matplotlib>=3.10",
+    "mistralai>=3.2",
+    "notebook>=7.4",
+    "openpyxl>=3.1",
+    "pandas>=3.0",
+]
